@@ -1,0 +1,40 @@
+body{
+    background-image: url("7cda96056acda773472c9db922f21e0f.jpg");
+}
+h1{
+    font-weight: bold;
+    font-family: 'Shizuru', cursive;
+    color: rgb(26, 5, 6);
+    font-size: 50px;
+}
+p{
+    color:rgb(92, 23, 92) ;
+    font-size: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-weight: bold;
+    font-size: 30px;
+}
+#timer{
+    float:right;
+    font-family: 'Special Elite', cursive;
+    font-size: 33px;
+}
+#score{
+    float:left;
+    font-family: 'Special Elite', cursive;
+    font-size: 33px;
+}
+#show_sketch{
+    float:right;
+}
+canvas{
+    border-radius: 15px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: white;
+}
+@keyframes example{
+    from{box-shadow:6px 6px 45px gray;}
+    to{box-shadow: 6px 6px 45px white;}
+}
